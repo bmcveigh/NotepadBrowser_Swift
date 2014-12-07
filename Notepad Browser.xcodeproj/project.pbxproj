@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D2392EE1A29679C00B2B486 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2392ED1A29679C00B2B486 /* SwiftyJSON.swift */; };
-		7D2392F01A2A2D6200B2B486 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2392EF1A2A2D6200B2B486 /* DataManager.swift */; };
-		7D2392F21A2A34ED00B2B486 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2392F11A2A34ED00B2B486 /* WordModel.swift */; };
 		7D4FB5ED1A2929E100AE00C7 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4FB5EC1A2929E100AE00C7 /* Note.swift */; };
 		7D69A8D41A27832000DBCA74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69A8D31A27832000DBCA74 /* AppDelegate.swift */; };
 		7D69A8D61A27832000DBCA74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69A8D51A27832000DBCA74 /* ViewController.swift */; };
@@ -32,9 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D2392ED1A29679C00B2B486 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-master/SwiftyJSON/SwiftyJSON.swift"; sourceTree = "<group>"; };
-		7D2392EF1A2A2D6200B2B486 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		7D2392F11A2A34ED00B2B486 /* WordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 		7D4FB5EC1A2929E100AE00C7 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		7D69A8CE1A27832000DBCA74 /* Notepad Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notepad Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D69A8D21A27832000DBCA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,16 +63,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D2392F31A2A48EE00B2B486 /* Dictionary */ = {
-			isa = PBXGroup;
-			children = (
-				7D2392EF1A2A2D6200B2B486 /* DataManager.swift */,
-				7D2392ED1A29679C00B2B486 /* SwiftyJSON.swift */,
-				7D2392F11A2A34ED00B2B486 /* WordModel.swift */,
-			);
-			name = Dictionary;
-			sourceTree = "<group>";
-		};
 		7D69A8C51A27832000DBCA74 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +92,6 @@
 				7D4FB5EC1A2929E100AE00C7 /* Note.swift */,
 				7D69A8D91A27832000DBCA74 /* Images.xcassets */,
 				7D69A8DB1A27832000DBCA74 /* Main.storyboard */,
-				7D2392F31A2A48EE00B2B486 /* Dictionary */,
 				7D69A8D11A27832000DBCA74 /* Supporting Files */,
 			);
 			path = "Notepad Browser";
@@ -241,11 +224,8 @@
 				7D4FB5ED1A2929E100AE00C7 /* Note.swift in Sources */,
 				7D69A8D61A27832000DBCA74 /* ViewController.swift in Sources */,
 				7D69A8D41A27832000DBCA74 /* AppDelegate.swift in Sources */,
-				7D2392F01A2A2D6200B2B486 /* DataManager.swift in Sources */,
-				7D2392EE1A29679C00B2B486 /* SwiftyJSON.swift in Sources */,
 				7D69A8D81A27832000DBCA74 /* Document.swift in Sources */,
 				7D76E9001A27DE76003E862C /* TextViewController.swift in Sources */,
-				7D2392F21A2A34ED00B2B486 /* WordModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

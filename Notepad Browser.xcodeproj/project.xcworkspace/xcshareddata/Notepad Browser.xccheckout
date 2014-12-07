@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>889432FA-F68E-45EA-9C14-36796DD34BE1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Notepad Browser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>460B3409D3AC7F09D6F158B0E46794F7D5B18049</key>
+		<string>https://github.com/bmcveigh/NotepadBrowser_Swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Notepad Browser.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>460B3409D3AC7F09D6F158B0E46794F7D5B18049</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bmcveigh/NotepadBrowser_Swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>460B3409D3AC7F09D6F158B0E46794F7D5B18049</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>460B3409D3AC7F09D6F158B0E46794F7D5B18049</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NotepadBrowser_Swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

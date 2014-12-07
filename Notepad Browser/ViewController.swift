@@ -36,7 +36,7 @@ class ViewController: NSViewController {
         smallTextView.usesFontPanel = true
         smallTextView.usesFindBar = true
         // Controls whether the receiver changes its height to fit the height of its text.
-        //smallTextView.rulerVisible = true        
+        //smallTextView.rulerVisible = true
         
         
     }
@@ -106,19 +106,13 @@ class ViewController: NSViewController {
         
         panel.allowedFileTypes = ["rtf"]
         
-//        if (panel.runModal() == NSOKButton) {
-//            //[[textView RTFFromRange:NSMakeRange(0, [[textView string] length])] writeToURL:[panel URL] atomically:YES encoding:NSUTF8StringEncoding error:NULL];
-//            let len = strlen(smallTextView.string!)
-//            let l = len.hashValue
-//            smallTextView.RTFFromRange( NSMakeRange(0, l) )?.writeToURL(panel.URL!, atomically: true)
-//        }
-        
         if (panel.runModal() == NSOKButton) {
-            //[[textView RTFFromRange:NSMakeRange(0, [[textView string] length])] writeToURL:[panel URL] atomically:YES encoding:NSUTF8StringEncoding error:NULL];
-            let len = strlen(smallTextView.string!)
-            let l = len.hashValue
-            //smallTextView.RTFFromRange( NSMakeRange(0, l) )?.writeToURL(panel.URL!, atomically: true)
-            smallTextView.writeRTFDToFile("testtest.rtf", atomically: true)
+
+            var richText = smallTextView.attributedString()
+            
+            var fileWrapper = richText.fileWrapperFromRange(NSMakeRange(0, richText.length), documentAttributes:[NSDocumentTypeDocumentAttribute: NSRTFDTextDocumentType] , error: nil)
+            
+            fileWrapper?.writeToURL(panel.URL!, options: nil, originalContentsURL: nil, error: nil)
         }
         
         
